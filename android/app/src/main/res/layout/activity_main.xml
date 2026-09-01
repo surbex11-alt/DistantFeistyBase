@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp" android:background="#050805">
+    <TextView android:id="@+id/title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="◈ WIFI SENTINEL" android:textColor="#00FF66" android:textSize="22sp" android:textStyle="bold" />
+    <TextView android:id="@+id/status" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="READY • AP SCANNER" android:textColor="#66FFAA" android:textSize="12sp" android:paddingTop="4dp" />
+    <Button android:id="@+id/scanButton" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="◉  SCAN ACCESS POINTS" android:textColor="#001a08" android:backgroundTint="#00FF66" android:layout_marginTop="14dp" />
+    <TextView android:id="@+id/count" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="0 APs" android:textColor="#00FFFF" android:textSize="16sp" android:paddingTop="12dp" />
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:layout_marginTop="8dp">
+        <LinearLayout android:id="@+id/list" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" />
+    </ScrollView>
+</LinearLayout>
