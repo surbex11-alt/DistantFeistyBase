@@ -1,0 +1,6 @@
+{
+  "name": "WiFi Sentinel",
+  "description": "Tactical Wi-Fi access point radar scanner, signal strength analyzer, channel spectrum congestion visualizer, and cooperative node network coordinator.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
