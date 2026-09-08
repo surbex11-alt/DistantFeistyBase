@@ -1,0 +1,34 @@
+# PR Labeling Rules
+
+security:
+  - changed-files:
+      - any-glob-match-pattern: 'SECURITY.md'
+
+documentation:
+  - changed-files:
+      - any-glob-match-pattern: 'docs/**'
+      - any-glob-match-pattern: '*.md'
+
+code:
+  - changed-files:
+      - any-glob-match-pattern: 'src/**'
+      - any-glob-match-pattern: 'lib/**'
+
+tests:
+  - changed-files:
+      - any-glob-match-pattern: 'test/**'
+      - any-glob-match-pattern: '**/*.test.js'
+      - any-glob-match-pattern: '**/*.spec.js'
+
+config:
+  - changed-files:
+      - any-glob-match-pattern: '.github/**'
+      - any-glob-match-pattern: '*.json'
+      - any-glob-match-pattern: '*.yml'
+      - any-glob-match-pattern: '*.yaml'
+
+dependencies:
+  - changed-files:
+      - any-glob-match-pattern: 'package.json'
+      - any-glob-match-pattern: 'package-lock.json'
+      - any-glob-match-pattern: 'yarn.lock'
